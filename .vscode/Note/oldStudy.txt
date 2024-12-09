@@ -1,0 +1,70 @@
+HTML_HOME
+------------------------------------------------------
+HTML_INTRODUCTION
+- What is the HTML ?
+- What is the HTML elements ?
+- What is the web ?
+- History HTML ?
+------------------------------------------------------
+HTML_EDITORS
+- Notepad, vscode, ...
+------------------------------------------------------
+HTML_BASIC
+- The: <h1><h6>: tieu de trang web (giam dan tu 1 toi 6)
+        p: doan van 
+        img: hinh anh
+        a: lien ket(src: link anh - alt: van bay thay the khi anh loi)
+------------------------------------------------------
+HTML_ELEMENTS
+------------------------------------------------------
+HTML_ATTRIBUTES
+- What is the HTML attributes ?
+- Thuoc tinh: href : link duong dan
+                src: link anh
+                alt : van ban thay the anh
+                width, height: set chieu rong va cao anh
+                lang: ngon ngu trang web
+                title: hien thi van ban khi di chuot
+                style: tao kieu cho doi tuong nao do
+------------------------------------------------------
+HTML_HEADINGS
+- The: h(xac dinh tieu de van ban) 
+- tieu de lon hon : font-size: _px;
+------------------------------------------------------
+HTML_PARAGRAPHS
+- The: p, hr, br, pre
+------------------------------------------------------
+HTML_STYLES
+- color: mau van ban
+- background-color: mau ne van ban  
+- text-align: can van ban(center, left, right, justify, start, end)
+- font-size: kich co van ban
+- font-family: kieu van ban
+------------------------------------------------------
+HTML_FORMATTING
+- b: in dam
+- strong: nhan manh
+- i: in nghieng
+- em: quan trong
+- mark: danh dau
+- small: nho hon
+- ins: chen
+- del: xoa
+- sup: chi so tren - mu
+- sub: chi so duoi - co so
+-------------------------------------------------------
+===== HTML_QOUTATIONS =====
+- blockqoute: trich dan doan van dai tu nguon khac
+- q: trich dan doan van ngan
+- cite: xac dinh tieu de tac pham
+- address: xac dinh thong tin ca nhan tac gia (in nghieng)
+- abbr: tu viet tat (di chuot vao se hien thi toan bo tu - cham o duoi yu viet tat)
+- bdo: xac dinh van ban theo 2 chieu
+ + ltr: bth tu trai qua phai
+ + rtl: tu phai qua trai (dao nguoc chu)
+------------------------------------------------------
+===== HTML_Comment =====
+- cmt:  ctrl + k  + c or ctrl + /
+- un cmt: ctrl + k + u or ctrl + / (2 lan)
+-------------------------------------------------------
+===== HTML_COLORS ======

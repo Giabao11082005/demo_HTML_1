@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML ATTRIBUTES</title>
+    <style>
+      div {
+        border: 1px solid black;
+        border-collapse: collapse;
+        margin: 20px;
+        padding: 20px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <strong>button: tao hop</strong> <br />
+      <input type="button" value="Home" />
+      <input type="button" value="Contact" />
+    </div>
+
+    <div>
+      <strong>checkbox: tao hop kiem</strong> <br />
+      <span>What color do you likes ?</span> <br />
+      <input type="checkbox" name="" id="" /> Red <br />
+      <input type="checkbox" name="" id="" /> Blue <br />
+      <input type="checkbox" name="" id="" /> Green <br />
+    </div>
+
+    <div>
+      <strong>color: chon mau tu bang mau</strong> <br />
+      <input type="color" name="" id="" value="#ff0000" />
+    </div>
+
+    <div>
+      <strong>datetime-local: ngay va gio (khong co mui gio)</strong> <br />
+      <input type="datetime-local" name="" id="" />
+    </div>
+
+    <div>
+      <strong>date: ngay cu the thu lich</strong> <br />
+      <input type="date" name="" id="" />
+    </div>
+
+    <div>
+      <strong>email: nhap email</strong> <br />
+      <input type="email" name="" id="" placeholder="Nhap email" />
+    </div>
+    <!-- multiple: nhap nhieu email -->
+
+    <div>
+      <strong>file: chon file tu thiet bi</strong> <br />
+      <input type="file" name="" id="" />
+    </div>
+
+    <div>
+      <strong>hidden: truong an, khong hien tho gia tri</strong>
+      <input type="hidden" name="" />
+    </div>
+
+    <div>
+      <strong>image: gui data duoi dang hinh anh</strong>
+      <input
+        type="image"
+        src="/1_Tutorial/File_Image/prettyGirl1.jpg"
+        alt="Image pretty girl"
+        style="height: 50px; width: 50px"
+      />
+    </div>
+
+    <div>
+      <strong> month: thang va nam (khong co ngay cu the) </strong>
+      <input type="month" name="" id="" />
+    </div>
+
+    <div>
+      <strong>number: nhap so (gioi han va buoc nhay)</strong> <br />
+      <input type="number" name="" id="" step="1" max="100" min="1" />
+    </div>
+
+    <div>
+      <strong>password: tao mat khau (ki tu bi an)</strong> <br />
+      <input type="password" name="" id="" />
+    </div>
+
+    <div>
+      <strong>radio: tao lua chon</strong> <br />
+      <input type="radio" name="gender" id="" /> Boy <br />
+      <input type="radio" name="gender" id="" /> Girl <br />
+      <input type="radio" name="gender" id="" /> LGBT <br />
+    </div>
+
+    <div>
+      <strong>range: chon gia tri trong khoang</strong> <br />
+      <input type="range" name="" id="" max="100" min="20" />
+    </div>
+
+    <div>
+      <strong>reset: dat tta ca truong hop ve mac dinh</strong> <br />
+      <input type="reset" value="Reset" />
+    </div>
+
+    <div>
+      <strong>search: tao thanh tim kiem</strong> <br />
+      <input type="search" name="" id="" />
+    </div>
+
+    <div>
+      <strong>submit: nut gui bieu mau</strong> <br />
+      <input type="button" value="Send me" />
+    </div>
+
+    <div>
+      <strong>text: tao truong nhap van ban</strong> <br />
+      <input type="text" name="" id="" />
+    </div>
+
+    <div>
+      <strong>time: chon gio</strong>
+      <input type="time" name="" id="" />
+    </div>
+
+    <div>
+      <strong>url: nguoi dung nhap link</strong>
+      <input type="url" name="" id="" />
+    </div>
+
+    <div>
+      <strong>week: chon tuan trong nam</strong>
+      <input type="week" name="" id="" />
+    </div>
+  </body>
+</html>
+
+<!-- 
+1. <input type="color">
+Chức năng: Cho phép người dùng chọn một màu sắc từ bảng màu.
+Giá trị mặc định: Màu đen (#000000).
+Thuộc tính đi kèm: value (mã màu HEX), list (liên kết với danh sách màu tùy chọn).
+2. <input type="date">
+Chức năng: Cho phép người dùng chọn một ngày cụ thể từ lịch.
+Giá trị mặc định: Không có (trống).
+Thuộc tính đi kèm: min, max (giới hạn ngày tối thiểu và tối đa), value (ngày mặc định ở định dạng YYYY-MM-DD).
+3. <input type="datetime-local">
+Chức năng: Cho phép người dùng chọn cả ngày và giờ (không có múi giờ).
+Giá trị mặc định: Không có (trống).
+Thuộc tính đi kèm: min, max, step (định nghĩa bước thời gian), value (ngày và giờ mặc định ở định dạng YYYY-MM-DDThh
+).
+4. <input type="email">
+Chức năng: Cho phép người dùng nhập địa chỉ email, có thể kiểm tra tính hợp lệ.
+Giá trị mặc định: Không có (trống).
+Thuộc tính đi kèm: multiple (cho phép nhập nhiều email), placeholder, required.
+5. <input type="file">
+Chức năng: Cho phép người dùng chọn tệp từ thiết bị.
+Giá trị mặc định: Không có (trống).
+Thuộc tính đi kèm: accept (chỉ định loại tệp cho phép), multiple (cho phép chọn nhiều tệp).
+6. <input type="hidden">
+Chức năng: Trường ẩn, không hiển thị cho người dùng, nhưng gửi giá trị cùng với biểu mẫu.
+Giá trị mặc định: Không có (trống).
+Thuộc tính đi kèm: value (giá trị được gửi).
+7. <input type="image">
+Chức năng: Nút gửi dữ liệu dưới dạng hình ảnh.
+Giá trị mặc định: Không có (trống).
+Thuộc tính đi kèm: src (URL của hình ảnh), alt, height, width.
+8. <input type="month">
+Chức năng: Cho phép người dùng chọn tháng và năm (không có ngày cụ thể).
+Giá trị mặc định: Không có (trống).
+Thuộc tính đi kèm: min, max, value (giá trị mặc định ở định dạng YYYY-MM).
+9. <input type="number">
+Chức năng: Cho phép nhập số, có thể xác định giới hạn và bước nhảy.
+Giá trị mặc định: Không có (trống).
+Thuộc tính đi kèm: min, max, step, value (số mặc định).
+10. <input type="password">
+Chức năng: Trường nhập mật khẩu, ký tự bị ẩn.
+Giá trị mặc định: Không có (trống).
+Thuộc tính đi kèm: maxlength, placeholder, required.
+11. <input type="radio">
+Chức năng: Tạo một nút lựa chọn duy nhất trong một nhóm.
+Giá trị mặc định: Không có (trống).
+Thuộc tính đi kèm: name (xác định nhóm), checked (mặc định được chọn), value.
+12. <input type="range">
+Chức năng: Cho phép người dùng chọn một giá trị trong khoảng (slider).
+Giá trị mặc định: 50 (trên thang từ 0 đến 100).
+Thuộc tính đi kèm: min, max, step, value.
+13. <input type="reset">
+Chức năng: Nút để đặt lại tất cả các trường nhập liệu về giá trị mặc định.
+Giá trị mặc định: Không có.
+Thuộc tính đi kèm: value (nhãn nút).
+14. <input type="search">
+Chức năng: Trường nhập liệu được thiết kế cho tìm kiếm.
+Giá trị mặc định: Không có (trống).
+Thuộc tính đi kèm: placeholder, required.
+15. <input type="submit">
+Chức năng: Nút để gửi biểu mẫu.
+Giá trị mặc định: "Submit".
+Thuộc tính đi kèm: value (nhãn nút).
+16. <input type="tel">
+Chức năng: Cho phép người dùng nhập số điện thoại.
+Giá trị mặc định: Không có (trống).
+Thuộc tính đi kèm: placeholder, pattern (định dạng số điện thoại), required.
+17. <input type="text">
+Chức năng: Trường nhập văn bản đơn giản.
+Giá trị mặc định: Không có (trống).
+Thuộc tính đi kèm: maxlength, placeholder, required.
+18. <input type="time">
+Chức năng: Cho phép người dùng chọn giờ.
+Giá trị mặc định: Không có (trống).
+Thuộc tính đi kèm: min, max, step, value (giờ mặc định ở định dạng hh
+).
+19. <input type="url">
+Chức năng: Cho phép người dùng nhập URL.
+Giá trị mặc định: Không có (trống).
+Thuộc tính đi kèm: placeholder, pattern, required.
+20. <input type="week">
+Chức năng: Cho phép người dùng chọn tuần của năm.
+Giá trị mặc định: Không có (trống).
+Thuộc tính đi kèm: min, max, value (tuần mặc định ở định dạng YYYY-Www).
+-->

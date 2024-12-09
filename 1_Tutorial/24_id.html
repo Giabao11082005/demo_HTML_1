@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BAI 24: HTML ID</title>
+    <style>
+      #myHeader {
+        background-color: pink;
+        color: red;
+        padding: 20px;
+        margin: 20px;
+        text-align: center;
+      }
+
+      #myName {
+        background-color: pink;
+        color: green;
+        font-size: 20px;
+        font-family: Times;
+        padding: 20px;
+        border: 2 solid black;
+        text-align: center;
+      }
+
+      .MyName {
+        background-color: pink;
+        color: blue;
+        font-size: 20px;
+        font-family: Times;
+        padding: 20px;
+        border: 2 solid black;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Sử dụng Thuộc tính id (phan biet hoa thuong, chua it nhat 1 ki tu, khong duoc bat dau bang so hoac khoang trang)
+Thuộc tính chỉ định một id duy nhất cho một phần tử HTML. Giá trị của thuộc tính phải là duy nhất trong tài liệu HTML.idid
+
+Thuộc tính được sử dụng để trỏ cho một khai báo kiểu cụ thể trong biểu định kiểu. Nó cũng được JavaScript sử dụng để truy cập và Thao tác với phần tử với id cụ thể.id
+
+Cú pháp cho id là: viết một ký tự băm (#), theo sau là tên id. Sau đó, xác định các thuộc tính CSS trong dấu ngoặc nhọn {}. -->
+    <h1 id="myHeader">
+      hello every
+      <body></body>
+    </h1>
+    <hr />
+    <h1 id="myName">My Name</h1>
+    <h2 class="MyName">Gia Bao</h2>
+    <p>Toi la mot sinh vien IT</p>
+    <hr />
+    <h1 class="myName">My Name</h1>
+    <h2 class="MyName">Gia Bao</h2>
+    <p>Toi la mot sinh vien IT</p>
+    <!-- 
+    Dấu trang HTML với ID và Liên kết
+Dấu trang HTML được sử dụng để cho phép người đọc chuyển đến các phần cụ thể của trang web.
+
+Dấu trang có thể hữu ích nếu trang của bạn rất dài.
+
+Để sử dụng thẻ đánh dấu, trước tiên bạn phải tạo nó, sau đó thêm nối kết với nó.
+
+Sau đó, khi liên kết được nhấp vào, trang sẽ cuộn đến vị trí có thẻ
+
+Đầu tiên, tạo một dấu trang với thuộc tính:id
+
+<h2 id="C4">Chapter 4</h2>
+Sau đó, thêm một liên kết vào dấu trang ("Chuyển đến Chương 4"), từ trong cùng một trang:
+
+Ví dụ
+<a href="#C4">Jump to Chapter 4</a>
+Hoặc, thêm liên kết đến thẻ đánh dấu ("Chuyển đến Chương 4"), từ một trang khác:
+
+<a href="html_demo.html#C4">Jump to Chapter 4</a>
+    -->
+  </body>
+</html>
+<!-- Tóm tắt chương
+Thuộc tính được sử dụng để chỉ định một id duy nhất cho một phần tử HTMLid
+Giá trị của thuộc tính phải là duy nhất trong tài liệu HTMLid
+Thuộc tính được CSS và JavaScript sử dụng để kiểu/chọn một phần tử cụ thểid
+Giá trị của thuộc tính phân biệt chữ hoa chữ thườngid
+Thuộc tính này cũng được sử dụng để tạo dấu trang HTMLid
+JavaScript có thể truy cập một phần tử với một id cụ thể với phương thứcgetElementById() -->

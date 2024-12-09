@@ -1,0 +1,35 @@
+ - Phim tat Visual Studio Code: 
+https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
+
+ - ctrl d: chon nhung tu giong nhau
+ - ctrl + p: search file
+ - shift + alt + muiten: copy dong xuong or len
+ - alt + w + (vung boi den): them 1 the 
+
+----------------------------------------------------
+HTML: HyperText Markup Language
+HTTP: HyperText Transfer Protocol
+HTTPS: HyperText Transfer Protocol Secure
+TCP: Transmission Control Protocol
+IP: Internet Protocol
+DNS: Domain Name System
+URL: Uniform Resource Locator
+CSS: Cascading Style Shetts
+API: Application Programming Interface
+GUI - Graphical User Interface
+SQL - Structured Query Language
+DBMS - Database Management System
+OS - Operating System
+RAM - Random Access Memory
+ROM - Read-Only Memory
+SSD - Solid State Drive
+HDD - Hard Disk Drive
+LAN - Local Area Network
+WAN - Wide Area Network
+VPN - Virtual Private Network
+IoT - Internet of Things
+AI - Artificial Intelligence
+ML - Machine Learning
+UX - User Experience
+UI - User Interface
+

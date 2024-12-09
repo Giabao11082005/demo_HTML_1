@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bai 6: HTML ATTRIBUTES</title>
+    <style>
+      div {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 
+    ***** Thuộc tính HTML *****
+Tất cả các phần tử HTML có thể có các thuộc tính
+Thuộc tính cung cấp thêm thông tin về các phần tử
+Các thuộc tính luôn được chỉ định trong thẻ bắt đầu
+Các thuộc tính thường có các cặp tên/giá trị như: name="value"
+    
+      ***** Thuộc tính href *****
+ Thuộc tính chỉ định URL của trang Liên kết đi đến:<a> href
+
+      ***** Thuộc tính src *****
+ Thuộc tính Chỉ định đường dẫn đến hình ảnh sẽ được hiển thị:<img> src
+ url tuyệt đối: liên kết với hình ảnh lưu trữ trang web khác
+ url tương đối: lưu trữ bên trong trang web
+
+    ***** width và height *****
+Chỉ định chiều rộng và Chiều cao của hình ảnh (tính bằng pixel):<img> width height
+
+    ***** Thuộc tính alt *****
+Thuộc tính bắt buộc cho thẻ chỉ định một văn bản thay thế cho hình ảnh, nếu hình ảnh
+ vì lý do nào đó không thể hiển thị. Điều này có thể là do Kết nối chậm hoặc lỗi trong 
+ thuộc tính hoặc nếu người dùng sử dụng màn hình độc giả. alt <img> src 
+
+    ***** Thuộc tính style *****
+Thuộc tính được sử dụng để thêm kiểu vào một yếu tố, chẳng hạn như màu sắc, phông chữ, 
+kích thước và hơn thế nữa.style 
+
+    ***** Thuộc tính lang *****
+Bạn phải luôn bao gồm thuộc tính bên trong thẻ, để khai báo ngôn ngữ của trang Web. 
+Điều này có nghĩa là để hỗ trợ các công cụ tìm kiếm và trình duyệt.lang<html>
+
+    ***** Tiêu đề  title *****
+(nên sử dụng dấu ngoặc kép cho thuộc tính)
+Thuộc tính định nghĩa một số bổ sung Thông tin về một yếu tố.title
+Giá trị của thuộc tính title sẽ được hiển thị dưới dạng chú giải công cụ khi Bạn di 
+chuột qua phần tử.
+
+    ***** Dấu ngoặc kép hay dấu ngoặc kép? *****
+Dấu ngoặc kép xung quanh các giá trị thuộc tính là phổ biến nhất trong HTML, nhưng 
+đơn lẻ Báo giá cũng có thể được sử dụng.
+Trong một số trường hợp, khi bản thân giá trị thuộc tính chứa dấu ngoặc kép, cần sử
+ dụng dấu ngoặc đơn: 
+    -->
+
+    <div>
+      <strong>Thuoc tinh href</strong>
+      <a href="https://w3schools.com">Visit w3schools</a>
+    </div>
+    <div>
+      <strong>Thuoc tinh src - alt - width - height</strong>
+      <img
+        src="/1_Tutorial/File_Image/prettyGirl1.jpg"
+        style="width: 100px; height: 100px"
+        alt="Anh gai xinh"
+      />
+    </div>
+    <div>
+      <strong> Thuoc tinh style </strong>
+      <p style="color: red">This is a red paragraph</p>
+    </div>
+    <div>
+      <strong>Thuoc tinh title</strong>
+      <p title="World Wide Web">WWW</p>
+    </div>
+    <div>
+      <strong>Thuoc tinh single - double quotes</strong>
+      <p title="Hoang 'Gia' Bao">HGB</p>
+      <p title='Hoang "Gia" Bao'>HGB</p>
+    </div>
+  </body>
+</html>
+
+<!-- 
+Tóm tắt chương
+Tất cả các phần tử HTML có thể có các thuộc tính
+Thuộc tính của chỉ định URL của trang mà liên kết đi đến href <a>
+Thuộc tính of chỉ định đường dẫn đến hình ảnh sẽ được hiển thị src <img>
+Các thuộc tính và cung cấp thông tin kích thước cho hình ảnh width height<img>
+Thuộc tính of cung cấp một văn bản thay thế cho một hình ảnh alt <img>
+Thuộc tính được sử dụng để thêm kiểu đến một phần tử, chẳng hạn như màu sắc, phông chữ, kích thước và hơn thế nữa style
+Thuộc tính của thẻ khai báo ngôn ngữ của trang Web lang<html>
+Thuộc tính định nghĩa một số bổ sung Thông tin về một phần tử title
+-->

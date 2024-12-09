@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BAI 11: HTML QUOTATIONS</title>
+    <style>
+      div {
+        border: 1px solid black;
+        background-color: pink;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 
+***** HTML <blockquote> cho trích dẫn *****
+Phần tử HTML định nghĩa một phần được trích dẫn từ một nguồn khác.<blockquote>
+Trình duyệt thường thụt lề các phần tử.<blockquote>
+
+***** HTML <q> cho các trích dẫn ngắn *****
+Thẻ HTML xác định một trích dẫn ngắn.<q>
+Các trình duyệt thường chèn dấu ngoặc kép xung quanh dấu ngoặc kép.
+
+***** HTML <abbr> cho các chữ viết tắt *****
+Thẻ HTML xác định chữ viết tắt hoặc từ viết tắt, như "HTML", "CSS", "Ông", "Tiến sĩ", "ASAP", "ATM".<abbr>
+Đánh dấu chữ viết tắt có thể cung cấp thông tin hữu ích cho trình duyệt, dịch thuật hệ thống và công cụ tìm kiếm.
+Mẹo: Sử dụng thuộc tính global title [tiêu đề] toàn cầu để Hiển thị mô tả cho viết tắt / viết tắt khi bạn di chuột qua phần tử.
+
+***** HTML <address> cho thông tin liên hệ *****
+Thẻ HTML xác định thông tin liên hệ cho tác giả / chủ sở hữu của tài liệu hoặc một bài báo.<address>
+Thông tin liên hệ có thể là địa chỉ email, URL, địa chỉ thực, điện thoại số, xử lý phương tiện truyền thông xã hội, v.v.
+Văn bản trong phần tử thường hiển thị bằng chữ nghiêng và các trình duyệt sẽ Luôn thêm ngắt dòng trước và sau phần tử.<address><address>
+
+***** HTML <cite> cho tiêu đề công việc *****
+Thẻ HTML xác định tiêu đề của một công việc sáng tạo (ví dụ: một cuốn sách, một bài thơ, một bài hát, một bộ phim, một bức tranh, một tác phẩm điêu khắc, v.v.).<cite>
+Ghi: Tên của một người không phải là tiêu đề của một tác phẩm.
+Văn bản trong phần tử thường hiển thị bằng chữ nghiêng.<cite>
+
+***** HTML <bdo> để ghi đè hai chiều *****
+BDO là viết tắt của Bi-Directional Override.
+Thẻ HTML được sử dụng để ghi đè Hướng văn bản hiện tại:<bdo> 
+  -->
+    <div>
+      <strong>blockquote: trich dan tu nguon khac</strong>
+      <p>Hay truy cap website duoi de xem chi tiet:</p>
+      <blockquote cite="https://w3schools.com">
+        JavaScript is the world's most popular programming language. <br />
+        JavaScript is the programming language of the Web. <br />
+        JavaScript is easy to learn. <br />
+        This tutorial will teach you JavaScript from basic to advanced.
+      </blockquote>
+    </div>
+    <div>
+      <strong>p: trich dan doan van ngan hoac loi dan</strong> <br />
+      <p>
+        Bac Ho tung noi:
+        <q>Bac chau ta phai cung nhau giu nuoc</q>
+        .Hay nghe loi Bac dan
+      </p>
+    </div>
+    <div>
+      <strong>abbr: van ban viet tat</strong>
+      <p>The <abbr title="World Wide Web">WWW </abbr>was founded in 1900</p>
+    </div>
+    <div>
+      <strong>address: thong tin tac gia</strong>
+      <address>
+        Name: Hoang Gia Bao <br />
+        Age: 20 <br />
+        School: UTH
+      </address>
+    </div>
+    <div>
+      <strong>cite: trich dan</strong>
+      <p><cite>De Men Phieu Luu Ki</cite> written by To Hoai</p>
+    </div>
+  </body>
+</html>

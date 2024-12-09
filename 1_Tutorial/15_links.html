@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BAI 15: HTML LINK</title>
+    <style>
+      div {
+        border: 2px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 
+***** Liên kết HTML - Siêu liên kết *****
+Liên kết HTML là siêu liên kết.
+Bạn có thể nhấp vào một liên kết và chuyển đến một tài liệu khác.
+Khi bạn di chuyển chuột qua một liên kết, mũi tên chuột sẽ biến thành một bàn tay nhỏ.
+Ghi: Một liên kết không nhất thiết phải là văn bản. Một liên kết có thể là một hình ảnh hoặc bất kỳ phần tử HTML nào khác!
+
+***** Liên kết HTML - Cú pháp *****
+Thẻ HTML xác định một siêu liên kết. Nó có cú pháp sau:<a>
+<a href="url">link text</a>
+Thuộc tính quan trọng nhất của phần tử là thuộc tính href, cho biết đích đến của liên kết.<a>
+Văn bản liên kết là phần sẽ hiển thị cho người đọc.
+Nhấp vào văn bản liên kết, sẽ đưa người đọc đến địa chỉ URL được chỉ định.
+ 
+***** Liên kết HTML - Thuộc tính đích *****
+Theo mặc định, trang được liên kết sẽ được hiển thị trong cửa sổ trình duyệt hiện tại. Để thay đổi điều này, bạn phải chỉ định một mục tiêu khác cho liên kết.
+Thuộc tính chỉ định nơi mở tài liệu được liên kết.target
+Thuộc tính có thể có một trong các giá trị sau:target
+_self -Mặc định. Mở tài liệu trong cùng một cửa sổ / tab khi nó được nhấp vào
+_blank - Mở tài liệu trong một cửa sổ hoặc tab mới
+_parent - Mở tài liệu trong khung cha
+_top - Mở tài liệu trong toàn bộ nội dung của cửa sổ
+
+***** URL tuyệt đối so với URL tương đối *****
+Cả hai ví dụ trên đều sử dụng URL tuyệt đối (địa chỉ web đầy đủ) trong thuộc tính.href
+Liên kết cục bộ (liên kết đến một trang trong cùng một trang web) được chỉ định với URL tương đối (không có Phần "https://www"):
+
+***** Liên kết HTML - Sử dụng hình ảnh làm liên kết *****
+Để sử dụng hình ảnh làm liên kết, chỉ cần đặt thẻ bên trong thẻ:<img><a>
+
+***** Liên kết đến địa chỉ email *****
+Sử dụng bên trong thuộc tính để tạo liên kết mở chương trình email của người dùng (đến Hãy để họ gửi email mới): mailto: href
+from: nguoi gui
+to: nguoi nhan (nguoi nhan chinh)
+cc: nguoi nhan phu (lien quan gian tiep-FYI):biet thong tin thoi
+bcc: thay (cc, to, from) va nguoc lai
+lai khong thay nhau trong cung 1 day
+bi mat 0 an danh: khi nhom nhan can bi mat gioi tinh, rieng tu, te nhi
+khong muon cho nguoi khac biet minh gui cho ai nua
+tel: so dien thoai
+
+***** Nút dưới dạng liên kết *****
+Để sử dụng nút HTML làm liên kết, bạn phải thêm một số mã JavaScript.
+JavaScript cho phép bạn chỉ định những gì xảy ra tại một số sự kiện nhất định, chẳng hạn như nhấp vào nút:
+ 
+***** Tiêu đề liên kết *****
+Thuộc tính chỉ định thông tin bổ sung về một phần tử. Thông tin thường được hiển thị dưới dạng văn bản chú giải công cụ khi chuột di chuyển qua phần tử.title
+-->
+    <div>
+      <strong>HTML cu phap basic: HTML syntax</strong>
+      <a href="https://w3schools.com">visit w3schools</a>
+    </div>
+    <div>
+      <strong>HTML thuoc tinh dich: the attributes target</strong>
+      <a href="https://w3schools.com" target="_self">visit w3schools</a>
+      <a href="https://w3schools.com" target="_blank">visit w3schools</a>
+      <a href="https://w3schools.com" target="_parent">visit w3schools</a>
+      <a href="https://w3schools.com" target="_top">visit w3schools</a>
+    </div>
+    <div>
+      <strong>HTML hinh anh lien ket: use an images as a link</strong>
+      <a href="https://w3schools.com"
+        ><img
+          src="/1_Tutorial/File_Image/prettyGirl1.jpg"
+          style="width: 100px; height: 100px"
+          alt="Anh gai xinh"
+      /></a>
+    </div>
+    <div>
+      <strong>HTML email - tel</strong>
+      <a href="mailto: baohg2455@ut.edu.vn">send email</a>
+      <a href="tel: +84388661185">call me</a>
+    </div>
+    <div>
+      <strong>HTML button as link</strong>
+      <button onclick="document.location='default.asp'">HTML tutorial</button>
+    </div>
+    <div>
+      <strong>HTML Link Title</strong>
+      <a href="https://w3schools.com" title="go to w3schools HTML section"
+        >Visit w3schools</a
+      >
+    </div>
+  </body>
+</html>
+<!-- 
+Tóm tắt chương
+Sử dụng phần tử để xác định một liên kết<a>
+Sử dụng thuộc tính để xác định địa chỉ liên kếthref
+Sử dụng thuộc tính để xác định vị trí mở tài liệu được nối kếttarget
+Sử dụng phần tử (bên trong) Để sử dụng hình ảnh làm liên kết<img><a>
+Sử dụng lược đồ bên trong thuộc tính để tạo liên kết mở chương trình email của người dùng mailto: href
+-->

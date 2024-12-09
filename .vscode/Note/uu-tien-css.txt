@@ -1,0 +1,9 @@
+internal-external: = nhau, cai nao viet sau thi lay cai do
+
+inline - 1000
+#id - 100
+.class - 10
+tag - 1
+
+equal speccificity ?
+* : tat ca cac thuoc tinh trong html deu giong nhau

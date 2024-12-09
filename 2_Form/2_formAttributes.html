@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- 
+***** Thuộc tính Action *****
+Thuộc tính xác định hành động sẽ được thực hiện khi biểu mẫu được gửi.action
+Thông thường, dữ liệu biểu mẫu được gửi đến một tệp trên máy chủ khi người dùng nhấp vào nút gửi.
+
+***** Thuộc tính Method *****
+Thuộc tính chỉ định HTTP phương pháp được sử dụng khi gửi dữ liệu biểu mẫu.method
+Dữ liệu biểu mẫu có thể được gửi dưới dạng biến URL (với ) hoặc dưới dạng giao dịch bài HTTP (với ).method="get"method="post"
+Phương thức HTTP mặc định khi gửi dữ liệu biểu mẫu là GET.
+
+****** Lưu ý về GET:
+Chắp thêm dữ liệu biểu mẫu vào URL, theo cặp tên/giá trị
+KHÔNG BAO GIỜ sử dụng GET để gửi dữ liệu nhạy cảm! (dữ liệu biểu mẫu đã gửi hiển thị trong URL!)
+Độ dài của URL bị giới hạn (2048 ký tự)
+Hữu ích cho việc gửi biểu mẫu mà người dùng muốn đánh dấu kết quả
+GET phù hợp với dữ liệu không an toàn, như chuỗi truy vấn trong Google
+
+***** Lưu ý về POST:
+Nối dữ liệu biểu mẫu vào bên trong nội dung của yêu cầu HTTP (đã gửi dữ liệu biểu mẫu không được hiển thị trong URL)
+POST không có giới hạn kích thước và có thể được sử dụng để gửi một lượng lớn dữ liệu.
+Không thể đánh dấu các biểu mẫu có POST
+
+***** Thuộc tính Tự động hoàn tất *****
+Thuộc tính chỉ định xem có hay không Biểu mẫu phải bật hoặc tắt tính năng tự động hoàn tất.autocomplete
+Khi tính năng tự động hoàn tất được bật, trình duyệt sẽ tự động hoàn thành các giá trị dựa trên các giá trị mà người dùng đã nhập trước đó.
+
+***** Thuộc tính Novalidate *****
+Thuộc tính này là một thuộc tính boolean.novalidate
+Khi trình bày, nó chỉ định rằng dữ liệu biểu mẫu (đầu vào) không nên được xác thực khi gửi.
+-->
+    <form action="action.php">
+      <label for="fanme">FirstName</label> <br />
+      <input type="text" name="fname" id="fname" value="Gia Bao" /> <br />
+      <label for="lname">LastName</label> <br />
+      <input type="text" name="lname" id="lname" value="Hoang" /> <br />
+      <input type="submit" value="Send" />
+    </form>
+  </body>
+</html>

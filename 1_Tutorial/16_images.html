@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bai 16: HTML Images</title>
+    <style>
+      body {
+        background-image: url(/1_Tutorial/File_Image/prettyGirl1.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+      /* cover: toan man hinh
+      keo dai anh: 100% 100%
+      */
+    </style>
+  </head>
+  <body>
+    <h1>Bai 16: HTML Images</h1>
+    <!-- 
+    src: duong dan den anh
+    alt: van ban thay the anh khi bi loi 
+    -->
+    <div>
+      <strong style="color: blue; font-size: 40px">IMAGES</strong> <br />
+      <strong>Anh nam trong 1 thu muc</strong> <br />
+      <img
+        src="/1_Tutorial/File_Image/prettyGirl2.jpg"
+        alt="Anh gai xinh"
+        style="width: 100px; height: 100px"
+      />
+      <hr />
+      <strong>Anh lay tu 1 lien ket</strong> <br />
+      <img
+        src="https://th.bing.com/th/id/OIP.JADOFqAzLIoWgD-k6qAZGwAAAA?rs=1&pid=ImgDetMain"
+        alt="Anh gai xinh"
+        style="width: 100px; height: 100px"
+      />
+      <hr />
+      <strong>Hinh anh dong</strong> <br />
+      <img
+        src="https://demoda.vn/wp-content/uploads/2022/01/tai-anh-dong-de-thuong-1.gif"
+        alt="Anh cute"
+        style="width: 100px; height: 100px"
+      />
+      <hr />
+      <strong>Anh lien toi toi trang nao do</strong> <br />
+      <a href="https://w3schools.com"
+        ><img
+          src="https://th.bing.com/th/id/OIP.yBBdNUNfsFoteVthqAkAywHaJ3?rs=1&pid=ImgDetMain"
+          alt="Anh gai cute"
+          style="width: 100px; height: 100px"
+      /></a>
+      <hr />
+      <strong>Hinh anh noi</strong> <br />
+      <p>
+        <img
+          src="/1_Tutorial/File_Image/prettyGirl1.jpg"
+          alt="Anh gai xinh"
+          style="float: right; width: 40px; height: 40px"
+        />
+        Hinh anh nam ben phai doan van
+      </p>
+      <hr />
+      <p>
+        <img
+          src="/1_Tutorial/File_Image/prettyGirl1.jpg"
+          alt="Anh gai xinh"
+          style="float: left; width: 40px; height: 40px"
+        />
+        Hinh anh nam ben trai doan van
+      </p>
+    </div>
+    <hr />
+    <hr />
+    <div>
+      <strong style="color: red; font-size: 50px">Image Map</strong> <br />
+      <!-- 
+      Xac dinh ban do hinh anh, cac khu vuc co the nhap vao.
+      rect: hinh chu nhat
+      circle: hinh tron
+      poly: hinh da giac
+      default: toan bo khu vuc
+      figure: align: can chinh hinh anh
+      figcaption: tieu de anh
+      map: tao ban do hinh anh, va lien ket voi hinh anh, su dung: <map> name
+      -->
+      <img
+        src="/1_Tutorial/File_Image/workplace.jpg"
+        alt="workplace"
+        usemap="#workmap"
+      />
+
+      <map name="workmap">
+        <area
+          shape="rect"
+          coords="34,44,270,350"
+          href="/1_Tutorial/File_BaiTap/16_images/computer.html"
+          alt="computer"
+        />
+        <area
+          shape="circle"
+          coords="337,300,44"
+          href="/1_Tutorial/File_BaiTap/16_images/coffee.html"
+          alt="coffee"
+        />
+        <area
+          shape="rect"
+          coords="290, 172, 333, 250"
+          href="/1_Tutorial/File_BaiTap/16_images/phone.html"
+          alt="phone"
+        />
+      </map>
+    </div>
+    <hr />
+    <hr />
+    <div>
+      <strong>HTML Background Colors</strong>
+      <p style="background-image: url(/1_Tutorial/File_Image/prettyGirl1.jpg)">
+        Hello cac ban
+      </p>
+    </div>
+    <hr />
+    <hr />
+    <div>
+      <strong>HTML Elements</strong>
+      <!-- hien thi kich thuoc khac nhau cho cca kich thuoc man
+       hinh khac nhau 
+       Trong HTML, một "picture" là một phần tử dùng để cung cấp 
+       nhiều nguồn ảnh khác nhau cho trình duyệt web, giúp nó chọn 
+       và hiển thị ảnh phù hợp nhất dựa trên các điều kiện như kích 
+       thước màn hình, độ phân giải, hoặc định dạng ảnh được hỗ trợ. 
+       Điều này rất hữu ích khi bạn muốn tối ưu hóa hình ảnh cho các 
+       thiết bị khác nhau hoặc cho mục đích hiển thị khác nhau.
+       -->
+      <picture>
+        <source media="(min-width: 650px)" srcset="prettyGirl1.img" />
+        <source media="(min-width: 465px)" srcset="prettyGirl1.img" />
+        <img src="/1_Tutorial/File_Image/prettyGirl1.jpg" alt="anh gai xinh" />
+      </picture>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,61 @@
+<!-- 
+Biểu mẫu Thuộc tính
+Thuộc tính input chỉ định biểu mẫu Các yếu tố thuộc về.form<input>
+
+Giá trị của thuộc tính này phải bằng thuộc tính id của <form> nó thuộc về.
+
+ Thuộc tính formaction
+Thuộc tính input chỉ định URL của tệp sẽ xử lý đầu vào khi biểu mẫu được gửi.formaction
+
+Ghi: Thuộc tính này ghi đè thuộc tính của phần tử. action<form>
+
+Thuộc tính hoạt động với Các loại đầu vào sau: Gửi và Hình ảnh.formaction
+
+Thuộc tính formenctype
+Thuộc tính input chỉ định cách mã hóa dữ liệu biểu mẫu khi gửi (chỉ dành cho các biểu mẫu có method="post").formenctype
+
+Ghi: Thuộc tính này ghi đè thuộc tính enctype của phần tử.<form>
+
+Thuộc tính hoạt động với Các loại đầu vào sau: Gửi và Hình ảnh.formenctype
+
+Thuộc tính formmethod
+Thuộc tính input xác định phương thức HTTP để gửi dữ liệu biểu mẫu đến URL hành động.formmethod
+
+Ghi: Thuộc tính này ghi đè lên thuộc tính method của phần tử.<form>
+
+Thuộc tính hoạt động với Các loại đầu vào sau: Gửi và Hình ảnh.formmethod
+
+Dữ liệu biểu mẫu có thể được gửi dưới dạng biến URL (method="get") hoặc dưới dạng bài đăng HTTP giao dịch (method="post").
+
+Lưu ý về phương pháp "nhận":
+
+Phương pháp này nối dữ liệu biểu mẫu vào URL theo cặp tên/giá trị
+Phương pháp này hữu ích cho việc gửi biểu mẫu mà người dùng muốn đánh dấu trang Kết quả
+Có giới hạn về lượng dữ liệu bạn có thể đặt trong URL (khác nhau giữa trình duyệt), do đó, bạn không thể chắc chắn rằng tất cả dữ liệu biểu mẫu sẽ Chuyển chính xác
+Không bao giờ sử dụng phương pháp "nhận" để chuyển thông tin nhạy cảm! (mật khẩu hoặc thông tin nhạy cảm khác sẽ hiển thị trên thanh địa chỉ của trình duyệt)
+Lưu ý về phương pháp "đăng":
+
+Phương thức này gửi dữ liệu biểu mẫu dưới dạng giao dịch bài đăng HTTP
+Không thể đánh dấu các biểu mẫu gửi bằng phương pháp "đăng"
+Phương thức "đăng" mạnh mẽ và an toàn hơn "nhận" và "đăng" thì có Không có giới hạn kích thước
+
+
+Thuộc tính formtarget
+Thuộc tính input chỉ định tên hoặc từ khóa cho biết vị trí để hiển thị phản hồi nhận được sau khi gửi biểu mẫu.formtarget
+
+Ghi: Thuộc tính này ghi đè thuộc tính target của phần tử.<form>
+
+Thuộc tính hoạt động với Các loại đầu vào sau: Gửi và Hình ảnh.formtarget
+
+Thuộc tính formnovalidate
+Thuộc tính input chỉ định rằng phần tử <đầu vào> không nên được xác thực khi gửi.formnovalidate
+
+Ghi: Thuộc tính này ghi đè thuộc tính novalidate của phần tử.<form>
+
+Thuộc tính hoạt động với Các loại đầu vào sau: Gửi.formnovalidate
+
+Thuộc tính novalidate
+Thuộc tính là một thuộc tính.novalidate<form>
+
+Khi có mặt, novalidate chỉ định rằng tất cả dữ liệu biểu mẫu sẽ không được xác thực khi gửi.
+-->

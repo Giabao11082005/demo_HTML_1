@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bai 19: HTML TABLE</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Bai 18: HTML Table</h1>
+    <div>
+      <strong>A basic HTML Table</strong>
+      <table style="width: 100%">
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Address</th>
+        </tr>
+        <tr>
+          <td>Hoang Gia Bao</td>
+          <td>19</td>
+          <td>Ho Chi Minh City</td>
+        </tr>
+        <tr>
+          <td>Nguyen Thu Trang</td>
+          <td>20</td>
+          <td>Ha Noi City</td>
+        </tr>
+      </table>
+    </div>
+    <hr />
+    <div>
+      <strong>The caption: dinh nghia tieu de bang</strong>
+      <table>
+        <caption>
+          Danh sách sản phẩm
+        </caption>
+        <tr>
+          <th>Tên sản phẩm</th>
+          <th>Giá</th>
+        </tr>
+        <tr>
+          <td>Sản phẩm A</td>
+          <td>100.000 VND</td>
+        </tr>
+      </table>
+    </div>
+    <hr />
+    <div>
+      <strong
+        >The colgroup: nhom 1 hoac nhieu cot lai voi nhau cho phep dung thuoc
+        tinh chung</strong
+      >
+      <table>
+        <colgroup>
+          <col span="2" style="background-color: #f2f2f2" />
+          <col style="background-color: #e6e6e6" />
+        </colgroup>
+        <tr>
+          <th>Tên sản phẩm</th>
+          <th>Giá</th>
+          <th>Số lượng</th>
+        </tr>
+        <tr>
+          <td>Sản phẩm A</td>
+          <td>100.000 VND</td>
+          <td>20</td>
+        </tr>
+      </table>
+    </div>
+    <hr />
+    <div>
+      <strong
+        >The col: su dung ben trong colgroup de nghia thuoc tinh rieng cho tung
+        cot <br />
+        dung span de xac dinh so cot ma col ap dung
+      </strong>
+    </div>
+  </body>
+</html>

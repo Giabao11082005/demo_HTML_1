@@ -1,0 +1,34 @@
+- static web: mỗi lần người dùng request, máy chủ gửi tệp html css js đoen giản đến
+hiển thị trên trình duyệt, về cơ bản không có bất kì thay đổi nào trên trang web này.
+Sử dung các ngôn ngữ: HTML, CSS, JS
+
+- dynamic web: trang web mà nội dung update ontime, ví dụ:facebook(đăng hình, post, comment), 
+liên tục và phản hồi ontime với người dùng.
+(cần server lớn để xử lý, các ngôn ngữ BE se sắp xếp , lọc DÂTABASE sau đó gửi lên websever)
+Sử dụng các ngôn ngữ: Python, NodeJs, PHP, C#
+
+client -> internet -> server
+- mỗi 1 thiết bị đều có 1 địa chỉ ip
+- check id domain (search id web or may)
+
+cookie: text nhỏ lưu phía người dung biết user là ai
+session: vùng nhớ trên RAM của server 
+
+Internet: là một mạng lưới toàn cầu của các máy tính kết nối với nhau thông qua 
+bộ giao thức tiêu chuẩn hóa, chủ yếu là TCP/IP ((Transmission Control Protocol/Internet Protocol))
+Cho phép thiết bị trên khắp thế giới trao đổi thông tin một cách nhất qyans và hiệu quả
+
+http: la giao thức truyền siêu văn bản sử dụng trao đổi duẽ liệu
+giữa máy chủ và trình duyệt.Nó không mã hóa duẽ liệu(thông tin có thể)
+bị xem hoặc thay đổi bởi bên thứ 3 nếu bị chặn. Dùng cho các web không cần 
+bao mật: blog, trang tin tức
+
+https: phiên bản cao cấp http, sử dụng mã hóa SSl/TLS để mã hóa dữ liệu được 
+truyền giữa mays chủ và tringh duyệt. Mã hóa toàn bộ dữ liệu, giúp bảo vệ thông tin
+khỏi bị truy cập hoăck thay đổi.Dùng cho các web bảo mật cao như ngaan hàng, ...
+
+doamin: là địa chỉ trang web mà người dùng nhập vào trình duyệt để truy cập trang web
+hosting: là dịch vụ cung cấp không gian lưu trữ trên máy chủ Khi người dugf truy cập 
+vào tên miền, trình duyệt kết nối với máy chủ để tải và hiển thị nội dung
+
+dns: chuyển ip thanhd tên miền 

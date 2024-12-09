@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BAI 14: HTML CSS</title>
+    <style>
+      div {
+        border: 2px solid green;
+      }
+    </style>
+    <link rel="stylesheet" href="14_css.css" />
+  </head>
+  <body>
+    <!-- 
+***** Kiểu HTML - CSS *****
+CSS là viết tắt của Cascading Style Sheets.
+CSS tiết kiệm rất nhiều công việc. Nó có thể kiểm soát bố cục của nhiều tất cả các trang web cùng một lúc.
+
+***** CSS là gì? *****
+Cascading Style Sheets (CSS) được sử dụng để định dạng bố cục của một trang web.
+Với CSS, bạn có thể kiểm soát màu sắc, phông chữ, kích thước văn bản, khoảng cách giữa các yếu tố, cách các
+ yếu tố được định vị và bố trí, nền tảng nào Hình ảnh hoặc màu nền sẽ được sử dụng, màn hình khác nhau cho 
+ các thiết bị khác nhau và kích thước màn hình, và nhiều hơn nữa!
+Mẹo: Từ xếp tầng có nghĩa là một phong cách Áp dụng cho phần tử cha cũng sẽ áp dụng cho tất cả các phần tử 
+con trong cha mẹ. Vì vậy, nếu bạn đặt màu của văn bản nội dung thành "màu xanh", tất cả các tiêu đề, Các đoạn 
+văn và các yếu tố văn bản khác trong nội dung cũng sẽ có cùng màu (trừ khi bạn chỉ định một cái gì đó khác)!
+
+***** Sử dụng CSS *****
+CSS có thể được thêm vào tài liệu HTML theo 3 cách:
+Nội tuyến - bằng cách sử dụng thuộc tính bên trong các phần tử HTMLstyle
+Nội bộ - bằng cách sử dụng một phần tử trong phần<style><head>
+Bên ngoài - bằng cách sử dụng một phần tử để liên kết đến tệp CSS bên ngoài<link>
+
+***** CSS nội tuyến: inline css *****
+CSS nội tuyến được sử dụng để áp dụng một kiểu duy nhất cho một phần tử HTML duy nhất.
+CSS nội tuyến sử dụng thuộc tính của một phần tử HTML.style
+
+***** CSS nội bộ: internal css *****
+CSS nội bộ được sử dụng để xác định kiểu cho một trang HTML.
+CSS nội bộ được định nghĩa trong phần của trang HTML, trong một phần tử.<head><style>
+
+***** CSS bên ngoài: external css *****
+Một biểu định kiểu bên ngoài được sử dụng để xác định kiểu cho nhiều trang HTML.
+Để sử dụng biểu định kiểu bên ngoài, hãy thêm nối kết đến biểu định kiểu đó trong phần của mỗi trang HTML:<head>
+  
+***** Đệm CSS *****
+Thuộc tính CSS xác định phần đệm (dấu cách) giữa văn bản và đường viền.padding 
+
+***** Ký quỹ CSS *****
+Thuộc tính CSS xác định ký quỹ (không gian) bên ngoài biên giới.margin
+
+***** Nối kết đến CSS bên ngoài *****
+Biểu định kiểu bên ngoài có thể được tham chiếu với URL đầy đủ hoặc với đường dẫn liên quan đến trang web hiện tại.
+-->
+    <div>
+      <strong>CSS noi tuyen: inline css</strong>
+      <p style="background-color: pink">Hoang Gia Bao</p>
+    </div>
+    <div>
+      <strong>css noi bo: internal css</strong>
+      <p>Dung cho cac the div o tren</p>
+    </div>
+    <div>
+      <strong>css ben ngoai: external css</strong>
+      <h2>Hoang Gia Bao</h2>
+    </div>
+  </body>
+</html>
+
+<!-- 
+Tóm tắt chương
+Sử dụng thuộc tính HTML để tạo kiểu nội tuyến style
+Sử dụng phần tử HTML để xác định CSS nội bộ<style>
+Sử dụng phần tử HTML để tham chiếu đến tệp CSS bên ngoài<link>
+Sử dụng phần tử HTML để lưu trữ các phần tử <kiểu> và <liên kết><head>
+Sử dụng thuộc tính CSS cho màu văn bản color
+Sử dụng thuộc tính CSS cho phông chữ văn bản font-family
+Sử dụng thuộc tính CSS cho kích thước văn bản font-size
+Sử dụng thuộc tính CSS cho viền border
+Sử dụng thuộc tính CSS cho không gian bên trong viền padding
+Sử dụng thuộc tính CSS cho không gian bên ngoài viền margin
+-->
